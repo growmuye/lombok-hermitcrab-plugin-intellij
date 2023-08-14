@@ -13,7 +13,10 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-    <description><![CDATA[This project is responsible for maintaining customized lombok plugin features such as layered exception handling in the helper layer and custom logger objects.]]></description>
+    <description><![CDATA[
+    This project is responsible for maintaining customized lombok plugin features. The current version includes the following functionalities:
+        1. Eliminating code that converts "BizException" to "SwiftResponseWithErrorException".
+    ]]></description>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
