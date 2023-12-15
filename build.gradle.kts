@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.hermicrab"
-version = "1.0"
+version = "2.0"
 
 repositories {
     mavenCentral()
@@ -14,7 +14,7 @@ repositories {
 // Configure Gradle IntelliJ Plugin
 // Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 intellij {
-    version.set("2022.2.5")
+    version.set("2023.2.5")
     type.set("IC") // Target IDE Platform
 
     plugins.set(listOf("java"))
@@ -31,8 +31,8 @@ tasks {
     }
 
     patchPluginXml {
-        sinceBuild.set("222")
-        untilBuild.set("232.*")
+        sinceBuild.set("232")
+        untilBuild.set("233.*")
     }
 
     signPlugin {
