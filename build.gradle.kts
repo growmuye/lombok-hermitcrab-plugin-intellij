@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.hermicrab"
-version = "2.0"
+version = "3.0"
 
 repositories {
     mavenCentral()
@@ -31,8 +31,8 @@ tasks {
     }
 
     patchPluginXml {
-        sinceBuild.set("232")
-        untilBuild.set("233.*")
+        sinceBuild.set("233")
+        untilBuild.set("241.*")
     }
 
     signPlugin {
